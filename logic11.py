@@ -6,4 +6,8 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    return (99 < a and a < 1000) or (-99 > a and a > -1000)
+
+a = int(input())
+
+print(main(a))
