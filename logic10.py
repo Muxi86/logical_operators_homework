@@ -6,7 +6,7 @@ def main(a):
     Returns:
         bool: answer
     """
-    return 9 < a and a < 100
+    return (9 < a and a < 100) or (-9 > a and a > -100)
 
 a = int(input())
 
