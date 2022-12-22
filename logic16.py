@@ -6,4 +6,8 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    return a >= pow(10,4) and a < pow(10,5)
+
+a = int(input())
+
+print(main(a))
