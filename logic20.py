@@ -9,4 +9,7 @@ def main(n):
         bool: answer
     """
 
-    return
+    return n % 10 == 1
+
+n = int(input())
+print(main(n))
